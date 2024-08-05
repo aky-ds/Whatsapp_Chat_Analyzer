@@ -95,7 +95,7 @@ if upload_file is not None:
         st.pyplot(fig)
 
          #Get emojis
-        st.title('Emoji ANna')
+        st.title('Emoji Analysis')
         emoji_df=get_emojis(selected_user,df)
         emoji_df.columns=['Emoji','Count']
         col1,col2=st.columns(2)
